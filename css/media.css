@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+
+    .top-logo {
+    margin: 14px 0 0 10px;
+    }
+    .top-menu {
+        display: none;
+    }
+    .btn-menu {
+        display: block;
+    }
+    .top-phone {
+        font-size: 27.2px;
+        margin: 5px auto;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 320px;
+        -ms-flex: 0 1 320px;
+        flex: 0 1 320px; 
+    }
+    .main-title {
+        font-size: 70px;
+    }
+
+    .cross-item {
+        margin-top:50px;
+    }
+
+    .cross-section{
+        padding: 0 0 50px 0;
+    }
+
+    .section-title {
+        font-size: 48px;
+    }
+
+    .r-tabs-anchor {
+        display: block;
+    }
+    .routes-item {
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    }
+    .routes-item .item-title {
+        text-align: center;
+    }
+    .routes-item-img img {
+        margin: 0 auto 10px;
+    }
+    .wrap-schedule {
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    }
+    
+     .wrap-contacts {
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    }
+
+    .wrap-form {
+       margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .top-phone {
+
+        display: none;
+    } 
+    .container1{
+        -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    }
+
+    .main-title {
+        padding-top: 0;
+        font-size: 55px; 
+        
+    }
+    .site-content h2 {
+        font-size: 30px; 
+        line-height: 1em;
+        letter-spacing: 0.01em;
+        padding-bottom: 10px;
+    }
+
+
+    .section-title {
+        font-size: 46px; 
+        line-height:1.1em;
+    }
+
+    .section-title-money{
+        font-size: 60px; 
+        line-height:1.1em;
+    }
+
+    .section-title-trainer{
+        font-size: 40px; 
+        line-height:1.1em;
+    }
+
+    .cross-section{
+        padding: 0;
+    }
+
+  .top-logo {
+    margin: 10px 0 0 10px;
+  }
+
+    iframe {
+        width: auto;
+    }
+    .wrap-form {
+         width: auto;
+    }
+    
+    
+
+
+}
+
+/* @media only screen and (max-width: 960px){
+section.main-family .section-background {
+    position: relative;
+    min-height: 386px;
+    z-index: 0;
+} */

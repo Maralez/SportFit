@@ -1,0 +1,239 @@
+.stretch {
+  width: inherit;
+}
+.content_stretch {
+  background-color: #f44034;
+}
+.content_stretch .slider-dots {
+  margin-left: 70px;
+  transform: none;
+}
+@media only screen and (max-width: 720px) {
+  .content_stretch .slider-dots {
+    bottom: 0;
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+}
+.content_stretch .holder_stretch {
+  padding-top: 85px;
+}
+@media only screen and (max-width: 720px) {
+  .content_stretch .holder_stretch {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+}
+.stretch .content-holder_stretch {
+  float: right;
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 720px) {
+  .stretch .content-holder_stretch {
+    float: none;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .stretch .content-holder_stretch .content-topTitle {
+    position: absolute;
+    top: 15px;
+  }
+}
+.slider_stretch .content-title_stretch {
+  margin-top: 130px;
+}
+@media only screen and (max-width: 720px) {
+  .slider_stretch .content-title_stretch {
+    margin-top: 0;
+  }
+}
+.content-holder_stretch .slider-dots_stretch {
+  bottom: 80px;
+}
+.slider_stretch {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 50% auto;
+}
+.slider-dots_stretch {
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(75%);
+}
+.content {
+  width: 100%;
+}
+@media only screen and (max-width: 720px) {
+  .content {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
+.content-holder {
+  padding: 40px 70px 80px;
+  box-sizing: border-box;
+  width: 50%;
+}
+@media only screen and (max-width: 720px) {
+  .content-holder {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: auto;
+  }
+}
+.slider-item {
+  position: relative;
+  width: 100vw;
+  outline: none;
+}
+.slider-item .holder {
+  height: 100%;
+}
+.slider-item-image {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-position: 50%;
+  background-size: cover;
+}
+@media only screen and (max-width: 720px) {
+  .slider-item-image {
+    position: static;
+    width: auto;
+    height: 300px;
+  }
+}
+.content-title {
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+  font-family: 'BebasNeue';
+  font-size: 74px;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0.01em;
+}
+@media only screen and (max-width: 720px) {
+  .content-title {
+    font-size: 45px;
+  }
+}
+.content-title b {
+  display: block;
+  font-weight: 300;
+}
+.content-title_light {
+  display: block;
+  font-weight: 300;
+}
+.content-text {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1.3em;
+}
+.slider-dots {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  padding: 0;
+  transform: translateX(-50%);
+}
+.slider-dots li {
+  display: inline-block;
+  border: solid 5px transparent;
+  border-radius: 2em;
+}
+.slider-dots li::after {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2em;
+  background-color: rgba(255, 255, 255, 0.5);
+  content: '';
+}
+.slider-dots .slick-active {
+  border-color: white;
+}
+.slider-dots button {
+  display: none;
+}
+.slider-dot_active {
+  border-color: white;
+}
+.slider-dots li:hover {
+  cursor: pointer;
+}
+.content-topTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.451);
+}
+.holder_aboutClub,
+.holder_stretch {
+  padding-top: 65px;
+}
+.content_row {
+  display: -ms-flexbox;
+  display: flex;
+}
+.content-block {
+  -ms-flex: 1;
+      flex: 1;
+  padding-right: calc(5vw / 2);
+  padding-bottom: 80px;
+  padding-left: calc(5vw / 2);
+  max-width: 50%;
+}
+@media only screen and (max-width: 720px) {
+  .content-block {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    max-width: none;
+  }
+}
+.content-block:first-child {
+  padding-left: 5vw;
+}
+.content-block:last-child {
+  padding-right: 5vw;
+}
+.holder .content-block:first-child {
+  padding-left: 0;
+}
+.holder .content-block:last-child {
+  padding-right: 0;
+}
+.content-image {
+  background-position: 50%;
+  background-size: cover;
+}
+@media only screen and (max-width: 720px) {
+  .content-image {
+    max-width: none;
+    min-height: 200px;
+    -ms-flex-order: -1;
+        order: -1;
+  }
+}
+.slick-track {
+  display: -ms-flexbox;
+  display: flex;
+}
+.slick-slide {
+  height: auto;
+}
+.content_slider,
+.advantage-slider {
+  opacity: 0;
+  transition: opacity .5s;
+}
+.content_slider.slick-slider, .advantage-slider.slick-slider {
+  opacity: 1;
+}
